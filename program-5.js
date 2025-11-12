@@ -20,13 +20,13 @@ function fetchMultipleAPIs(urls) {
 }
 
 // --use
-const urls = [
+
+
+fetchMultipleAPIs([
     'https://api.restful-api.dev/objects',
     'https://api.restful-api.dev/objects',
     'https://api.restful-api.dev/objects'
-];
-
-fetchMultipleAPIs(urls)
+])
     .then(data => {
         console.log(data);
     })
