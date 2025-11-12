@@ -14,9 +14,8 @@ function downloadAll(urls) {
   return Promise.all(requests);
 }
 
-const urls = [
+downloadAll([
   'https://api.restful-api.dev/objects',
   'https://api.restful-api.dev/objects',
   'https://api.restful-api.dev/objects'
-];
-downloadAll(urls)
+])
